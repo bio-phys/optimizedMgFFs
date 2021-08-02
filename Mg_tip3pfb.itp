@@ -1,22 +1,22 @@
 
 [ moleculetype ]
 ; Name            nrexcl
-mMg     3
+mMg_tip3pfb     3
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
-1       mMg     1       mMg     mMg     1       2       24.305
+1       mMg_tip3pfb     1       mMg_tip3pfb     mMg_tip3pfb     1       2       24.305
 
 [ moleculetype ]
 ; Name            nrexcl
-nMg     3
+nMg_tip3pfb     3
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
-1       nMg     1       nMg     nMg     1       2       24.305
+1       nMg_tip3pfb     1       nMg_tip3pfb     nMg_tip3pfb     1       2       24.305
 
 [ moleculetype ]
 ; Name            nrexcl
-CXY     3
+CXY_tip3pfb     3
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
-1       CXY     1       CXY     CXY     1       -1      35.45
+1       CXY_tip3pfb     1       CXY_tip3pfb     CXY_tip3pfb     1       -1      35.45
 
