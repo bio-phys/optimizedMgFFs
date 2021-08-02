@@ -14,11 +14,12 @@ Our optimized parameters aim to precisely capture the role of Magnesium in all-a
 
 ## Quick start guide
 Our parameters are optimized for the SPC/E, TIP3P-fb, TIP4P/2005, TIP4P-Ew, or TIP4P-D water models.
-The parameters are optimized for use with the Smith-Dang parametes for Cl (SPC/E) or the Cloride parameters presented above and optimized alongside the Mg2+ parameters and parmBSC0chiOL3 RNA force fields (e.g. `amber14sb.ff`).
+The parameters are optimized for use with the Smith-Dang parametes for Cl (SPC/E) or the Cloride parameters optimized alongside the Mg2+ parameters and parmBSC0chiOL3 RNA force fields (e.g. `amber14sb.ff`).
 All parameter sets here are to be used with the Lorentz-Berthelot combination rule (otherwise modifications are required).
 Note that we have chosen unique names for the optimized parameters to avoid errors in overwriting atom names:
 * `mMg` - MG with water exchange as in experiment
 * `nMg` - MG with accellerated water exchange
+* `CXY` - CL optimized for TIP3P-fb, TIP4P/2005, TIP4P-Ew, and TIP4P-D alongside Mg. For SPC/E please use the parameters by Smith and Deng.
 
 To get started: Replace the standard ion names in your `.gro` file by our unique names.
 Modify the given topology file according to your system. The topology file includes the optimized force field parameters via 
