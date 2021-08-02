@@ -1,4 +1,4 @@
-# Optimized Magnesium FFs parameter to be used in SPC/E, TIP3P-fb, TIP4P-Ew, or TIP4P-D water
+# Optimized Magnesium FFs parameter to be used in SPC/E, TIP3P-fb, TIP4P/2005, TIP4P-Ew, or TIP4P-D water
 [Link](https://github.com/bio-phys/Magnesium-FFs) to parameters in TIP3P.
 
 ## Introduction
