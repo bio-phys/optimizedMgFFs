@@ -1,0 +1,34 @@
+; **************************************************************************************************
+; * Title of publication: "Systematic Optimization of Mg2+ Force Fields for Biomolecular	         *
+; * Simulations with Accurate Solvation, Ion-pairing, and Water Exchange Properties               *
+; * in SPC/E, TIP3P-fb, TIP4P/2005, TIP4P-Ew, and TIP4P-D"	                               	  	  *
+; * Authors: Kara K. Grotz and Nadine Schwierz						                     *		
+; * For implementation please cite: K. K. Grotz, N. Schwierz (tba)  *
+; * doi: tba      	                                                			  *
+; *                                                                                               *
+; * Note 1: This force field for Magnesium was optimized with the >>>TIP4P/2005<<< water model (doi:10.1063/1.2121687)          *
+; * Note 2: Lorentz-Berthelot combination rules required	   	    	  			                       *
+; * Note 3: This force field was optimized to be used with Cl parameters that are optimized in the same publication		*
+; * Note 4: This force field was optimized to be used with paramBSC0chiOL3 parameters for RNA (amber14.ff)  
+; *                                                                                                *
+; * CXY - Cl parameters                                                               *
+; * mMg - MG with water exchange as in experiment                                                  *
+; * nMg - MG with accellerated water exchange                                                      *
+; *					                                                                                       *
+; **************************************************************************************************
+
+[ atomtypes ]
+; name      at.num  mass     charge ptype  sigma      epsilon
+mMg     12      24.305  2       A       0.090110         712.674442
+nMg     12      24.305  2       A       0.091310         774.618078
+CXY     17      35.45   -1      A       0.503464           0.042887
+[ nonbond_params ]
+; i    j func        sigma epsilon
+mMg     mMg     1.000   0.090110       712.674442
+mMg     CXY     1.000   0.471891         0.552851
+
+nMg     nMg     1.000   0.103403543645    380.380222
+nMg     CXY     1.000   0.474425            0.440274
+
+nMg     nMg     1.000   0.091310       774.618078
+nMg     CXY     1.000   0.472845         0.576377
