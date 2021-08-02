@@ -21,8 +21,12 @@ Note that we have chosen unique names for the optimized parameters to avoid erro
 * `nMg` - MG with accellerated water exchange
 
 To get started: Replace the standard ion names in your `.gro` file by our unique names.
-Modify the given topology file according to your system. The topology file includes the optimized force field parameters via `ffMg.itp` and `Mg.itp`
-
+Modify the given topology file according to your system. The topology file includes the optimized force field parameters via 
+* `ffMg_spce.itp` and `Mg_spce.itp`,
+* `ffMg_tip3pfb.itp` and `Mg_tip3pfb.itp`,
+* `ffMg_tip4p2005.itp` and `Mg_tip4p2005.itp`,
+* `ffMg_tip4pew.itp` and `Mg_tip4pew.itp`,
+* `ffMg_tip4pd.itp` and `Mg_tip4pd.itp`.
 
 ## Example 1: 0.5 molar MgCl2 using microMg
 
