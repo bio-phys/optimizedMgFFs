@@ -1,0 +1,22 @@
+
+[ moleculetype ]
+; Name            nrexcl
+mMg_spce     3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       mMg_spce     1       mMg_spce     mMg_spce     1       2       24.305
+
+[ moleculetype ]
+; Name            nrexcl
+nMg_spce     3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       nMg_spce     1       nMg_spce     nMg_spce     1       2       24.305
+
+[ moleculetype ]
+; Name            nrexcl
+Cl     3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+1       Cl     1       Cl     Cl     1       -1      35.45
+
