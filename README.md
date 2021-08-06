@@ -23,19 +23,19 @@ Note that we have chosen unique names for the optimized parameters to avoid erro
 
 To get started: Replace the standard ion names in your `.gro` file by our unique names.
 Modify the given topology file according to your system. The topology file includes the optimized force field parameters via 
-* `ffMg_spce.itp` and `Mg_spce.itp`,
-* `ffMg_tip3pfb.itp` and `Mg_tip3pfb.itp`,
-* `ffMg_tip4p2005.itp` and `Mg_tip4p2005.itp`,
-* `ffMg_tip4pew.itp` and `Mg_tip4pew.itp`,
-* `ffMg_tip4pd.itp` and `Mg_tip4pd.itp`.
+* `ff_Mg_spce.itp` and `Mg_spce.itp`,
+* `ff_Mg_tip3pfb.itp` and `Mg_tip3pfb.itp`,
+* `ff_Mg_tip4p2005.itp` and `Mg_tip4p2005.itp`,
+* `ff_Mg_tip4pew.itp` and `Mg_tip4pew.itp`,
+* `ff_Mg_tip4pd.itp` and `Mg_tip4pd.itp`.
 
 # Examples
 
 Examples can be used similar as for TIP3P water. To test the parameters for the selected water model (here spce as an example, works the same for the other parameters):
 
 * download the example files from: [Link](https://github.com/bio-phys/Magnesium-FFs)
-* add the new force field parameters (`ffMg_spce.itp` and `Mg_spce.itp`) to `ions.ff`
-* change the names of the ions force field parameter file `.itp` in the topolology file `.top` from `ff_Mg.itp` to `ffMg_spce.itp` and from `Mg.itp` to `Mg_spce.itp`
+* add the new force field parameters (`ff_Mg_spce.itp` and `Mg_spce.itp`) to `ions.ff`
+* change the names of the ions force field parameter file `.itp` in the topolology file `.top` from `ff_Mg.itp` to `ff_Mg_spce.itp` and from `Mg.itp` to `Mg_spce.itp`
 * follow the description for TIP3P.
 
 ## Citation
