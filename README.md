@@ -29,6 +29,18 @@ Modify the given topology file according to your system. The topology file inclu
 * `ffMg_tip4pew.itp` and `Mg_tip4pew.itp`,
 * `ffMg_tip4pd.itp` and `Mg_tip4pd.itp`.
 
+# Examples
+
+These examples are the same as for TIP3P. To test the parameters for the different water models:
+* download the example files from: 
+* add the new force field parameters (`ffMg_nameofwatermodel.itp` and `Mg_nameofwatermodel.itp`) to `ions.ff`
+* change the names of the ions force field parameter file `.itp` in the topolology file `.top` from
+
+`; Include optimized forcefield parameters for Magnesium and water
+#include "./ions.ff/ff_Mg.itp"
+#include "./ions.ff/Mg.itp"`
+
+to the name of the selected wawter model.
 ## Example 1: 0.5 molar MgCl2 using microMg
 
 Folder example_MgCl2 contains all files for an MD simulation of 0.5 molar MgCl2 solution with GROMACS.
