@@ -42,7 +42,7 @@ Examples can be used similar as for TIP3P water. To test the parameters for the 
 
 ## Citation
 If you use our optimized parameters for Magnesium please refer to:
-K. K. Grotz, N. Schwierz (t.b.a.)
+K. K. Grotz, N. Schwierz Optimized Magnesium Force Field Parameters for Biomolecular Simulations with Accurate Solvation, Ion-Binding, and Water-Exchange Properties in SPC/E, TIP3P-fb, TIP4P/2005, TIP4P-Ew, and TIP4P-D, J. Chem. Theory Comput. 2021. https://doi.org/10.1021/acs.jctc.1c00791
 
 
 Implementation has been tested by Kara K. Grotz.
